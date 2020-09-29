@@ -68,4 +68,4 @@ After pushing the changes to your forked repository (your-username/BUBC-Universa
 
 Give a detailed and useful explaination of what you did in the comments of pull requests and someone from the maintainers or team leads will review the code and accept the pull request or ask you to change some things before merging it.
 
-**How to Create a pull request? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=297)**
+**How to create a pull request? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=297)**
