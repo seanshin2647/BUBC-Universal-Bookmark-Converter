@@ -4,15 +4,15 @@ There are some guildelines which everyone should follow while contributing to th
 
 ## Please follow these steps if you wish to contribute to the project:
 
-1. Go through the Issues to see if, what you want is already in discussion.
+1. Go through the Issues tab to see if, what you want is already in discussion.
 
-2. Open a new Issue if you do not find what you need. Describe the bug, feature request, problems, additions you might want or anything clearly in the Issue message.
+2. Open a new issue if you do not find what you need. Describe the bug, feature request, problems, additions you might want or anything clearly in the Issue message.
 
-3. Mention in the Issue that you want to work on it.
+3. Mention in the Issues tab that you want to work on it.
 
-4. Wait for the approval from the Maintainers of this project before starting to work on it.
+4. Wait for the approval from the maintainers of this project before starting to work on it.
 
-5. Create a pull request after making the changes and mention the Issue number that your pull request is related to.
+5. Create a pull request after making the changes and mention the issue number that your pull request is related to.
 
 6. Make the required changes if the reviewer asks for them. 
 
@@ -22,9 +22,7 @@ There are some guildelines which everyone should follow while contributing to th
 
 ## 1. Fork the Repository
 
-First step is to fork this repository (devscollab/skill-board) to your GitHub account. You can do this by clicking on the Fork button provided in the top right corner of the repo page. 
-
-![Fork](assets/readme/fork.png)
+First step is to fork this repository (seanshin2647/BUBC-Universal-Bookmark-Converter) to your GitHub account. You can do this by clicking on the fork button provided in the top right corner of the repo page. 
 
 Also, star and watch the repository to receive all the updates directly to your mail.
 
@@ -33,11 +31,9 @@ Also, star and watch the repository to receive all the updates directly to your 
 ## 2. Clone the forked repo to your system
 
 Clone the repository that you just forked into your account.
-Be careful to clone the forked repo (your-username/skill-board) and not the main repo (devscollab/skill-board) as making direct changes to the main repo will result in conflict of code and lack of co-ordination as we proceed further.
+Be careful to clone the forked repo (your-username/BUBC-Universal-Bookmark-Converter) and not the main repo (seanshin2647/BUBC-Universal-Bookmark-Converter) as making direct changes to the main repo will result in conflict of code and lack of co-ordination as we proceed further.
 
-The forked repository will have your username in the top left corner and the clone link will also contain your username (https://github.com/your-username/skill-board.git).
-
-![Clone](assets/readme/clone.png)
+The forked repository will have your username in the top left corner and the clone link will also contain your username (https://github.com/your-username/BUBC-Universal-Bookmark-Converter.git).
 
 **How to Clone a forked repo? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=134)**
 
@@ -47,7 +43,7 @@ Now, you have the repository on your system and you are ready to make changes. B
 
 To avoid any conflicts, you need to pull all the changes from the main repository. 
 
-So, after cloning the forked repository (your-username/skill-board) to your system, use the command `git remote add upstream https://github.com/devscollab/skill-board.git` to point to the main repository. You only need to do this once.
+So, after cloning the forked repository (your-username/skill-board) to your system, use the command `git remote add upstream https://github.com/seanshin2647/BUBC-Universal-Bookmark-Converter.git` to point to the main repository. You only need to do this once.
 
 Now, after making any changes to your project on the system, follow these simple steps to push your work to the repository:
 
@@ -59,16 +55,16 @@ Now, after making any changes to your project on the system, follow these simple
 
 `git push`
 
+When you write your commit message, make sure to write it in a way that will fit into the following format, "This commit is intended to do X" (X is your commit message). Do not end it with a period.
+
 **How to set up a Remote Repo - [YouTube Link](https://youtu.be/-zvHQXnBO6c)**
 
 ## 4. Create a pull request
 
-After pushing the changes to your forked repository (your-username/skill-board), all you have to do is create a new pull request from your account by simply clicking on the *Pull Request* button.
-
-![Pull Request](assets/readme/pull%20request.png)
+After pushing the changes to your forked repository (your-username/BUBC-Universal-Bookmark-Converter), all you have to do is create a new pull request from your account by simply clicking on the *Pull Request* button.
 
 > NOTE:
-> If you are some commits behind of devscollab:master then you need to first git pull upstream master from the system, push it to your forked repository and then create the Pull Request.
+> If you are some commits behind of BUBC-Universal-Bookmark-Converter:master then you need to first git pull upstream master from the system, push it to your forked repository and then create the Pull Request.
 
 Give a detailed and useful explaination of what you did in the comments of pull requests and someone from the maintainers or team leads will review the code and accept the pull request or ask you to change some things before merging it.
 
