@@ -18,26 +18,26 @@ There are some guildelines which everyone should follow while contributing to th
 
 7. That's it! Your pull request will be merged once everything seems okay.
 
-**Watch this Video if you are new to GitHub - [YouTube Link](https://youtu.be/HbSjyU2vf6Y)**
+**Watch this video if you are new to GitHub - [YouTube Link](https://youtu.be/HbSjyU2vf6Y)**
 
-## 1. Fork the Repository
+## 1. Fork the repository
 
 First step is to fork this repository (seanshin2647/BUBC-Universal-Bookmark-Converter) to your GitHub account. You can do this by clicking on the fork button provided in the top right corner of the repo page. 
 
 Also, star and watch the repository to receive all the updates directly to your mail.
 
-**How to Fork a Repository? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=101)**
+**How to fork a repository? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=101)**
 
-## 2. Clone the forked repo to your system
+## 2. Clone the forked repository to your system
 
 Clone the repository that you just forked into your account.
 Be careful to clone the forked repo (your-username/BUBC-Universal-Bookmark-Converter) and not the main repo (seanshin2647/BUBC-Universal-Bookmark-Converter) as making direct changes to the main repo will result in conflict of code and lack of co-ordination as we proceed further.
 
 The forked repository will have your username in the top left corner and the clone link will also contain your username (https://github.com/your-username/BUBC-Universal-Bookmark-Converter.git).
 
-**How to Clone a forked repo? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=134)**
+**How to clone a forked repo? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=134)**
 
-## 3. Add the main repo as remote upstream
+## 3. Add the main repository as remote upstream
 
 Now, you have the repository on your system and you are ready to make changes. But what if someone else changes the same thing that you just did?
 
@@ -57,7 +57,7 @@ Now, after making any changes to your project on the system, follow these simple
 
 When you write your commit message, make sure to write it in a way that will fit into the following format, "This commit is intended to do X" (X is your commit message). Do not end it with a period.
 
-**How to set up a Remote Repo - [YouTube Link](https://youtu.be/-zvHQXnBO6c)**
+**How to set up a remote repository - [YouTube Link](https://youtu.be/-zvHQXnBO6c)**
 
 ## 4. Create a pull request
 
@@ -68,4 +68,4 @@ After pushing the changes to your forked repository (your-username/BUBC-Universa
 
 Give a detailed and useful explaination of what you did in the comments of pull requests and someone from the maintainers or team leads will review the code and accept the pull request or ask you to change some things before merging it.
 
-**How to Create a Pull Request? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=297)**
+**How to Create a pull request? - [YouTube Link](https://youtu.be/HbSjyU2vf6Y?t=297)**
