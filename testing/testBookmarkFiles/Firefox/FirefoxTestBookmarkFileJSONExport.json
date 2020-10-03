@@ -1,0 +1,159 @@
+{
+    "guid": "root________",
+    "title": "",
+    "index": 0,
+    "dateAdded": 1578254495379000,
+    "lastModified": 1601715526498000,
+    "id": 1,
+    "typeCode": 2,
+    "type": "text/x-moz-place-container",
+    "root": "placesRoot",
+    "children": [
+        {
+            "guid": "menu________",
+            "title": "menu",
+            "index": 0,
+            "dateAdded": 1578254495379000,
+            "lastModified": 1601715526498000,
+            "id": 2,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "bookmarksMenuFolder",
+            "children": [
+                {
+                    "guid": "wYdC8H8QwOkR",
+                    "title": "GIMP - GNU Image Manipulation Program",
+                    "index": 0,
+                    "dateAdded": 1601715452159000,
+                    "lastModified": 1601715457431000,
+                    "id": 65,
+                    "typeCode": 1,
+                    "iconuri": "https://www.gimp.org/images/wilber16.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.gimp.org/"
+                },
+                {
+                    "guid": "mXeCm0PVe34q",
+                    "title": "Pygame",
+                    "index": 1,
+                    "dateAdded": 1601715515148000,
+                    "lastModified": 1601715526498000,
+                    "id": 67,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.pygame.org/news"
+                }
+            ]
+        },
+        {
+            "guid": "toolbar_____",
+            "title": "toolbar",
+            "index": 1,
+            "dateAdded": 1578254495379000,
+            "lastModified": 1601715483426000,
+            "id": 3,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "toolbarFolder",
+            "children": [
+                {
+                    "guid": "hT7TW5t-1SWA",
+                    "title": "Getting Started",
+                    "index": 0,
+                    "dateAdded": 1578251035120000,
+                    "lastModified": 1597900586000000,
+                    "id": 12,
+                    "typeCode": 1,
+                    "iconuri": "fake-favicon-uri:https://www.mozilla.org/en-US/firefox/central/",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.mozilla.org/en-US/firefox/central/"
+                },
+                {
+                    "guid": "-VezhsvnfXL5",
+                    "title": "Python",
+                    "index": 1,
+                    "dateAdded": 1601715477560000,
+                    "lastModified": 1601715483426000,
+                    "id": 66,
+                    "typeCode": 1,
+                    "iconuri": "https://www.python.org/static/apple-touch-icon-144x144-precomposed.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.python.org/"
+                }
+            ]
+        },
+        {
+            "guid": "unfiled_____",
+            "title": "unfiled",
+            "index": 3,
+            "dateAdded": 1578254495379000,
+            "lastModified": 1601715526498000,
+            "id": 5,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "unfiledBookmarksFolder",
+            "children": [
+                {
+                    "guid": "YjiWkExNy6_t",
+                    "title": "AdNauseam",
+                    "index": 0,
+                    "dateAdded": 1601712383214000,
+                    "lastModified": 1601712388842000,
+                    "id": 60,
+                    "typeCode": 1,
+                    "iconuri": "https://adnauseam.io/img/icon-32.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://adnauseam.io/"
+                },
+                {
+                    "guid": "Lj3WUCAy6Var",
+                    "title": "TrackMeNot",
+                    "index": 1,
+                    "dateAdded": 1601712393614000,
+                    "lastModified": 1601712393614000,
+                    "id": 61,
+                    "typeCode": 1,
+                    "iconuri": "https://trackmenot.io/images/tmn_icon.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://trackmenot.io/"
+                },
+                {
+                    "guid": "czE-4d2Kdiqe",
+                    "title": "Linux.org",
+                    "index": 2,
+                    "dateAdded": 1601712401437000,
+                    "lastModified": 1601712401437000,
+                    "id": 62,
+                    "typeCode": 1,
+                    "iconuri": "https://www.linux.org/apple-touch-icon.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.linux.org/"
+                },
+                {
+                    "guid": "aFwlpS5zb7ZP",
+                    "title": "Qubes OS",
+                    "index": 3,
+                    "dateAdded": 1601712405059000,
+                    "lastModified": 1601712408920000,
+                    "id": 63,
+                    "typeCode": 1,
+                    "iconuri": "https://www.qubes-os.org/apple-touch-icon.png?v=bOv986l09r",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.qubes-os.org/"
+                },
+                {
+                    "guid": "hJqtQJ0mT1Qs",
+                    "title": "Hacktoberfest",
+                    "index": 4,
+                    "dateAdded": 1601712413182000,
+                    "lastModified": 1601712418355000,
+                    "id": 64,
+                    "typeCode": 1,
+                    "iconuri": "https://hacktoberfest.digitalocean.com/assets/favicon-79cf6800e5106ab81f2e1d8b0d8aec638a803ced6d8d61539841b9754573e0f0.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://hacktoberfest.digitalocean.com/"
+                }
+            ]
+        }
+    ]
+}
