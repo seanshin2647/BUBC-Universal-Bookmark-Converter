@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.bubcdevs.Main.java'
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:3.8.2'
+}
+
+group 'com.bubcdevs'
+version '0.1'
+
