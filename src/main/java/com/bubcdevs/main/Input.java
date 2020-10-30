@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
+import java.util.Scanner;
 public class Input {
     // Initialize the variables
     Scanner scanner;
 
-    public String input(String[] args) {
+    public String[] input() {
         // Make a input object
         Input input = new Input();
         // Create the scanner object
@@ -16,7 +17,7 @@ public class Input {
         // Thank the user or tell them their file path sucks
         input.informTheUserOfTheCurrentStatus(operatingSystem);
         // Return the file path and the OS
-        return {operatingSystem, filePath};
+        return new String[]{operatingSystem, filePath};
 
     }
 
@@ -71,6 +72,6 @@ public class Input {
             System.out.println("Great! That worked, you are using a "+operatingSystem+" based filesystem.");
         }
     }
+
+
 }
-
-
