@@ -6,7 +6,7 @@ public class Main {
         Window window = Window.getWindow();
         Input input = new Input();
         String[] filePathList = input.input();
-        operatingSystem = filePathList[0];
-        filePath = filePathList[1];
+        String operatingSystem = filePathList[0];
+        String filePath = filePathList[1];
     }
 }
