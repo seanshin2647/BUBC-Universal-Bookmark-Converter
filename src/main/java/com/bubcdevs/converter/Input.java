@@ -22,7 +22,7 @@ public class Input {
 
     public String getFilePath() {
         // When someone drags a file into a terminal window, it will automatically paste the file path.
-        System.out.println("Please drag and drop your \".db\" file into this window and press enter");
+        System.out.println("Drag and drop your \".db\" file into this window and press enter.");
         String filePath = scanner.nextLine();
         return filePath;
     }
@@ -53,9 +53,9 @@ public class Input {
 
     public void currentStatus(String operatingSystem) {
         if (operatingSystem == "Invalid com.bubcdevs.converter.Input") {
-            System.out.println("Sorry, that didn't work");
+            System.out.println("Invalid input or failed process. Try again.");
         } else {
-            System.out.println("Great! That worked, you are using a "+operatingSystem+" based filesystem.");
+            System.out.println("Valid input. Process successful. You are using a "+operatingSystem+" based filesystem.");
         }
     }
 
