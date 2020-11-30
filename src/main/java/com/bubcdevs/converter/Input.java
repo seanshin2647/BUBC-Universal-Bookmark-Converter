@@ -6,6 +6,7 @@ public class Input {
     Scanner scanner;
     String filePath;
     String operatingSystem;
+    boolean verificationCheck;
 
     public String[] input() {
         scanner = new Scanner(System.in);
@@ -19,8 +20,19 @@ public class Input {
 
     public String getUserFilePath() {
         // When someone drags a file into a terminal window, it will automatically paste the file path.
-        System.out.println("Drag and drop your \".db\" file into this window and press enter.");
-        filePath = scanner.nextLine();
+        verificationCheck = false;
+        while (!verificationCheck) {
+            System.out.println("Drag and drop your \".db\" file into this window and press enter.");
+            filePath = scanner.nextLine();
+            verify(filePath);
+
+            if (operatingSystem == "Invalid com.bubcdevs.converter.Input") {
+                System.out.println("Invalid input or failed process. Try again.");
+            } else {
+                System.out.println("Valid input. Process successful. You are using a " + operatingSystem + " based filesystem.");
+                verificationCheck = true;
+            }
+        }
         return filePath;
     }
 
@@ -43,14 +55,6 @@ public class Input {
             return operatingSystem;
         } else {
             return "Invalid com.bubcdevs.converter.Input";
-        }
-    }
-
-    public void currentStatus(String operatingSystem) {
-        if (operatingSystem == "Invalid com.bubcdevs.converter.Input") {
-            System.out.println("Invalid input or failed process. Try again.");
-        } else {
-            System.out.println("Valid input. Process successful. You are using a " + operatingSystem + " based filesystem.");
         }
     }
 
