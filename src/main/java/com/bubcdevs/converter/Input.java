@@ -9,7 +9,7 @@ public class Input {
 
     public String[] input() {
         scanner = new Scanner(System.in);
-        filePath = getFilePath();
+        filePath = getUserFilePath();
         operatingSystem = verify(filePath);
         currentStatus(operatingSystem);
 
@@ -17,7 +17,7 @@ public class Input {
 
     }
 
-    public String getFilePath() {
+    public String getUserFilePath() {
         // When someone drags a file into a terminal window, it will automatically paste the file path.
         System.out.println("Drag and drop your \".db\" file into this window and press enter.");
         filePath = scanner.nextLine();
@@ -44,7 +44,6 @@ public class Input {
         } else {
             return "Invalid com.bubcdevs.converter.Input";
         }
-
     }
 
     public void currentStatus(String operatingSystem) {
@@ -55,5 +54,8 @@ public class Input {
         }
     }
 
+    public String getFilePath() {
+        return filePath;
+    }
 
 }
