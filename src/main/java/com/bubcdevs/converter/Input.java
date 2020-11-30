@@ -18,9 +18,9 @@ public class Input {
     }
 
     public String getUserFilePath() {
-        // When someone drags a file into a terminal window, it will automatically paste the file path.
         verificationCheck = false;
         while (!verificationCheck) {
+            // When someone drags a file into a terminal window, it will automatically paste the file path.
             System.out.println("Drag and drop your \".db\" file into this window and press enter.");
             filePath = scanner.nextLine();
             verify(filePath);
