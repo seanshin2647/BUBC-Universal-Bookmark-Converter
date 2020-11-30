@@ -12,7 +12,6 @@ public class Input {
         scanner = new Scanner(System.in);
         filePath = getUserFilePath();
         operatingSystem = verify(filePath);
-        currentStatus(operatingSystem);
 
         return new String[]{operatingSystem, filePath};
 
@@ -39,11 +38,11 @@ public class Input {
     // Verify that the input is valid and return what OS they are using.
     public String verify(String filePath) {
 
-        // Unix based filesystems always begin with a "/"
+        // Unix based filesystems always begin with a "/".
         if (filePath.startsWith("/")) {
             operatingSystem = "Unix";
         } else {
-            // Windows based filesystems always begin with "(letter):\\""
+            // Windows based filesystems always begin with "(letter):\\".
             if (filePath.indexOf(":\\") == 1) {
                 operatingSystem = "Windows";
             } else {
